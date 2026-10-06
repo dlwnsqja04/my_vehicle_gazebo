@@ -105,7 +105,7 @@ ros2 topic info /scan --verbose
 
 ![센서 프로파일링 터미널 화면](screenshots/sensor_profiling.png)
 
-## AI 사용 및 직접 보강 내용
+## AI 사용 및 보강 내용
 
 AI 사용 내용:
 - ROS2/Gazebo 센서 연결과 실행 오류 원인 분석처럼 복잡한 부분에 도움을 받았다.
