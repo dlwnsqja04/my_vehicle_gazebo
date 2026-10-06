@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-오토모티브SW프로그래밍 5주차 실습 코드: 정적 TF 브로드캐스터
-작성자: 김동주 교수 (deekim@cu.ac.kr)
 
 [설명]
 차량 중심(base_link)에서 전방 범퍼 상단에 장착된 2D 라이다(lidar_link)로의

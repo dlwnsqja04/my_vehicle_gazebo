@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-오토모티브SW프로그래밍 6주차 실습 코드: Best Effort QoS 기반 다중 센서 수신 및 전처리 노드
-작성자: 김동주 교수 (deekim@cu.ac.kr)
 
 [설명]
 자율주행 차량의 3대 핵심 센서인 LiDAR(/scan), IMU(/imu/data), 카메라(/camera/image_raw)의

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-오토모티브SW프로그래밍 5주차 실습 런치 파일: TF2 데모 시스템 통합 실행
-작성자: 김동주 교수 (deekim@cu.ac.kr)
 
 [설명]
 정적 브로드캐스터(static_tf_broadcaster), 동적 브로드캐스터(dynamic_tf_broadcaster),

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-오토모티브SW프로그래밍 5주차 실습 코드: TF2 버퍼 및 룩업 리스너 노드
-작성자: 김동주 교수 (deekim@cu.ac.kr)
 
 [설명]
 TF2 라이브러리의 핵심 자료구조인 시간 기반 링 버퍼(Buffer)와 리스너(TransformListener)를

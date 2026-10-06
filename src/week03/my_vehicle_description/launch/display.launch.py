@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-==================================================================
-스크립트: display.launch.py
 설명: 3주차 차량 로봇 모델(URDF/Xacro)을 RViz2에서 시각화하기 위한
       ROS 2 런치 파일입니다.
 동작 흐름:
@@ -9,10 +7,6 @@
   2. robot_state_publisher 노드에 모델 XML 문자열 주입 및 실행
   3. joint_state_publisher_gui 노드를 실행하여 슬라이더 GUI 제공
   4. RViz2 노드를 실행하여 3D 로봇 모델 및 TF 좌표축 렌더링
-사용법:
-  - 직접 실행: ros2 launch code03/launch/display.launch.py
-  - 패키지 빌드 후 실행: ros2 launch my_vehicle_description display.launch.py
-==================================================================
 """
 
 import os
@@ -27,7 +21,7 @@ import xacro
 
 def generate_launch_description():
     # 1. 파일 경로 계산
-    # 본 launch 파일의 위치(code03/launch/)를 기준으로 code03/urdf/vehicle.urdf.xacro를 찾습니다.
+    # launch 디렉터리의 상위 패키지에서 urdf/vehicle.urdf.xacro를 찾습니다.
     current_dir = os.path.dirname(os.path.abspath(__file__))
     pkg_dir = os.path.dirname(current_dir)
     xacro_path = os.path.join(pkg_dir, 'urdf', 'vehicle.urdf.xacro')
